@@ -3,7 +3,7 @@
 ###需要队伍logo与介绍，成员logo
 
 ####demo1 absolute
-	尚未解决高度塌陷问题，简单目测不可行。。。
+	尚未解决高度塌陷问题，目测不能解决了。。。
 ####demo2 float
 	基本ok
 ####demo3 inline-block

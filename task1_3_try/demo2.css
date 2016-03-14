@@ -26,13 +26,16 @@ body {
   background-color: #eee;
   border-color: #999;
   min-width: 600px;
-  zoom: 1;
 }
 
-.container:after {
+.clearfix:after {
 	display:table;
 	content: " ";
 	clear:both; 
+}
+
+.clearfix {
+	zoom: 1;
 }
 
 .center,.left,.right {

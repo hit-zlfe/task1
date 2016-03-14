@@ -1,7 +1,7 @@
 # task1_3_try  by:yaoleo
 
 ###需要队伍logo与介绍，成员logo
-
+####虽然任务只要求实现，但还是把知道的常用方法实现一下，果然很多的坑
 ####demo1 absolute
 	尚未解决高度塌陷问题，目测不能解决了。。。
 ####demo2 float

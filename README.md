@@ -1,7 +1,7 @@
 # task1
 the repo of ife spring task1
 [http://ife.baidu.com/task/all](http://ife.baidu.com/task/all "任务链接")
-####每个任务一个文件夹，提交的时候先pull一下，看看有没有对应的文件夹，如果没有的话自己创建一个，比如第一个任务，可以命名为html基础，然后把代码放进对应文件夹
+####每个任务一个文件夹，提交的时候先pull一下，看看有没有对应的文件夹，如果没有的话自己创建一个，比如第一个任务，可以命名为html基础，然后把代码（如果是多个文件，请创建文件夹）放进对应文件夹
 ####在代码里面注释好自己的名字，比如
 	<!DOCTYPE html>
 	<html lang="zh-CN">

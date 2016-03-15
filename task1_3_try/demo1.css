@@ -24,7 +24,7 @@ body {
   position: relative;
   background-color: #eee;
   min-width: 600px;
-  height: 500px; /* 无法解决高度包裹问题 强行填了一个。。。 */
+  height: 580px; /* 无法解决高度包裹问题 强行填了一个。。。 */
 }
 
 .center,.left,.right {
@@ -49,6 +49,11 @@ body {
 
 .right {
 	position: absolute;
+	padding: 20px 20px 0;
 	right: 20px;
 	width: 120px;
+}
+
+.right img {
+	margin-bottom: 20px;
 }

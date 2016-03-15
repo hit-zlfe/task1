@@ -18,7 +18,6 @@ body {
 	padding: 20px;
     box-sizing: border-box;
     border: 1px solid #999;
-
 }
 
 .container {
@@ -34,6 +33,7 @@ body {
 
 .center,.left,.right {
 	font-size: initial;
+	font-size: 15px;/* 发现ie不支持initial */
 	background-color: #fff;
 	vertical-align:top;/*inline-block布局的辅助代码2，可以top, middle, bottom*/
 	display: inline-block;

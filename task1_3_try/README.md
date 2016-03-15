@@ -9,11 +9,10 @@
 ####demo3 inline-block
 	基本ok
 ####demo4 flex
-	占坑
+	基本ok
 ####浏览器兼容性测试
-	占坑
-####响应式？
-	目前必须要有一个最小宽度。。。
+	ie11，firefox，chrome
+
 
 #####笔记：
 三列布局的实现方式
@@ -30,6 +29,8 @@
     q2：自动换行
     q3: width: 100%;
     q4: 清除空格间隙
+4.flex:
+    q1:flex：1和flex：auto
 http://ued.taobao.org/blog/2012/08/inline-block/
 
 	

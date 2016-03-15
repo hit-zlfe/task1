@@ -1,5 +1,3 @@
-
-	
 说要尝试不同的position
 实际上需要理解的只有：fixed absolute relative static
 
@@ -28,7 +26,7 @@
 
 	demo4： css3
 	CSS3的transform和flex固然好用，但在项目的实际运用中必须考虑兼容问题，大量的hack代码可能会导致得不偿失。
-	某些浏览器仍需使用前缀写法
+	某些浏览器仍需使用前缀写法(不考虑太多，问题其实不大)
 
 ####半圆定位
 	demo1 absolute

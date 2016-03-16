@@ -1,0 +1,56 @@
+*{
+    font-family:Microsoft YaHei;/*author:lbd*/
+    margin: 0;/*author:lbd*/
+    padding: 0;/*author:lbd*/
+}
+body{
+    box-sizing: border-box;/*author:lbd*/
+}
+header{
+    padding:10px 15px;/*author:lbd*/
+    position: relative;/*author:lbd*/
+    width: 100%;/*author:lbd*/
+    background-color: slategrey;/*author:lbd*/
+}
+nav a:link    {color:black;}/*author:lbd*/
+nav a:visited {color:blue;}/*author:lbd*/
+nav a:hover   {color:red;}/*author:lbd*/
+nav a:active  {color:yellow;}/*author:lbd*/
+@media screen and (max-width: 959px) {
+
+    header h1 {
+
+        position: relative;/*author:lbd*/
+        margin: 0 auto;/*author:lbd*/
+        display: block;/*author:lbd*/
+        text-align: center;/*author:lbd*/
+    }
+    header nav{
+        text-align: center;/*author:lbd*/
+        position: relative;/*author:lbd*/
+        display: block;/*author:lbd*/
+
+        display: block;/*author:lbd*/
+    }
+
+
+}
+@media screen and (min-width: 960px){
+    header h1{
+        position: relative;/*author:lbd*/
+
+        margin: 20px 0;/*author:lbd*/
+        width: 300px;/*author:lbd*/
+        display: inline-block;/*author:lbd*/
+    }
+    header nav{
+        position: relative;/*author:lbd*/
+        float: right;/*author:lbd*/
+        margin: 30px 20px;/*author:lbd*/
+        display: inline-block;/*author:lbd*/
+    }
+    nav a{
+        margin-right: 15px;/*author:lbd*/
+    }
+}
+

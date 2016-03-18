@@ -5,28 +5,27 @@
 	font-weight: bold;
 }
 
-
 .test-table th {
 	background-color:black;
 	color:white;
 	font-size: 15px;
- }
+}
 
 .test-table tr:nth-child(-n+4) {
  	color: red;
- }
+}
 
 .test-table tr:nth-last-child(2n+1) {
  	background-color: #CDCDCD;
- }
+}
 
- .test-form {
+.test-form {
  	position: relative;
  	width: 240px;
  	height: 150px;
- }
+}
 
- .test-form input{
+.test-form input {
  	transform: translate(-50%, -50%);
     left: 50%;
     top: 50px;
@@ -37,15 +36,14 @@
 	-o-transition:width 2s;    	 /* Opera */  
 	-ms-transform: width 2s;     /* IE9 */
 	transition:width 2s;
- }
+}
 
-   input:focus {
+input:focus {
 	width: 200px;
-  }
+}
 
 .test-banner {
 	height: 100px;
-	width: 200px;
 	overflow: hidden;
 	position: relative;
 }
@@ -53,11 +51,10 @@
 .banner {
 	width: 200px;
 	height: 100px;
-	position: absolute;
-	left: 0;
-	right: 0;
+	float: left;
 	transition: width 3s;
 }
+
 .test-banner a{
 	text-align: center;
 	font-weight: bold;
@@ -74,27 +71,28 @@
 
 .banner-1{
 	background-color: red;
-	z-index: 1;
 }
-.banner-1:target{
+
+.banner-1:target~ input{
 	width: 0;
-	z-index: 20;
 }
+
 .banner-2{
 	background-color: green;
-	z-index: 2;
 }
+
 .banner-2:target{
 	width: 0;
-	z-index: 20;
 }
+
 .banner-3{
 	background-color: blue;
 }
+
 .banner-3:target{
 	width: 0;
-	z-index: 20;
 }
+
 .click-1 {
 	right: 42px;
 }
@@ -102,6 +100,7 @@
 .click-2 {
 	right: 21px;
 }
+
 .click-3 {
 	right: 0;
 }

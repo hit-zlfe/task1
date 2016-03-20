@@ -14,3 +14,10 @@
  > header：刘彬德
  > aside： 张晶尧
  > footer：赵吟斌
+ > article：周巧妍
+ 
+---
+####问题
+
+1. 图片部分.picture-block中加上float:left后，最后一部分的文字标题会窜上去，不加，又会横向发展。求解决方法！
+2. 将section放在了article的外面了。书上说section强调分块，article强调独立性。如果觉得有问题。可以再改。

@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 .block, .container {
 	margin: 20px; /* 目测题目有问题 不应该是padding 是margin */
 }

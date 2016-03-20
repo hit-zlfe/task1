@@ -126,3 +126,51 @@ aside h3 {
     width: 70%;
     height: 80px;
 }
+
+/*author fateice*/
+table{
+    border: solid;
+    border-width:1px;
+    border-color:darkgrey;
+    margin:3px;
+    width:100%;
+}
+
+table td{
+    border-width:1px;
+    padding:8px;
+    width:inherit;
+    border-style:solid;
+    border-color:darkgrey;
+}
+
+table td.tableHead{
+    background-color:#353535;
+    border-right-color:white;
+    color:white;
+}
+
+table td.tableBottom{
+    background-color:darkgrey
+}
+
+.a1{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.a2{
+    font-size:20px;
+    margin-bottom:10px;
+    color:darkgrey;
+}
+
+.a3{
+    font-size:smaller;
+    margin-bottom:10px;
+    color:darkgrey;
+}
+
+.rank{
+    margin-left:20px;
+}

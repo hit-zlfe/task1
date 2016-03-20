@@ -64,12 +64,17 @@ ul,li{margin:0; padding:0}
     min-width: 820px;
 }
 
-article {
+article{
+    border-style: solid;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-right-width: 2px;
+    border-color: #5e5e5e;
+    border-bottom-width: 2px;
+    border-left-width: 0;
+    border-top-width: 0;
     display: block;
     padding: 20px;
-    margin: 20px;
-    margin-right: 500px;
-    min-width: 300px;
     background-color: #fff;
 }
 
@@ -174,6 +179,35 @@ table td.tableBottom{
 .rank{
     margin-left:20px;
     margin-bottom:10px;
+}
+
+/*author:zqy*/
+#left-block{
+    margin-right: 500px;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+.picture-block{
+    border-style: solid;
+    border-color: #dedede;
+    border-width: thin;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    /*width: 140px;
+    height: auto;
+    float: left;*/
+}
+
+.picture-p{
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 10px;
+}
+
+p{
+    text-indent:0.89cm;
 }
 
 footer{

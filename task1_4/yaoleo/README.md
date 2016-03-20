@@ -12,9 +12,9 @@
 		}
 	区别是一个相对外层非static的block一个相对于浏览器窗口
 	缺点是垂直居中的定位是给定的margin负值，不能自适应高度
-	demo3:relative/static
+	demo2:relative
 		.center {
-			position: relative/static;
+			position: relative;
 			margin: auto;
 			top: 50%;
 			margin-top: -100px;
@@ -30,7 +30,7 @@
 
 ####半圆定位
 	demo1 absolute
-		可以适应灰色区域的改变
+		可以适应灰色区域的改变,所以demo3,4都是这种方法。
 
 	demo2 relative
 		缺点是灰色区域必须定宽，定高。。。

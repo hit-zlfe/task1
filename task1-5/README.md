@@ -13,4 +13,4 @@
 
  > header：刘彬德
  > aside： 张晶尧
- > table：赵吟斌
+ > footer：赵吟斌

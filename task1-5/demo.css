@@ -21,6 +21,10 @@ nav a:link    {color:black;}/*author:lbd*/
 nav a:visited {color:blue;}/*author:lbd*/
 nav a:hover   {color:red;}/*author:lbd*/
 nav a:active  {color:yellow;}/*author:lbd*/
+
+article img{
+    max-width: 100%;/*author:lbd*/
+}
 @media screen and (max-width: 959px) {/* 959? */
 
     header h1 {
@@ -67,7 +71,7 @@ ul,li{margin:0; padding:0}
 article{
     border-style: solid;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 5px;
     border-right-width: 2px;
     border-color: #5e5e5e;
     border-bottom-width: 2px;
@@ -180,6 +184,10 @@ table td.tableBottom{
     margin-left:20px;
     margin-bottom:10px;
 }
+#no-style-ul li{
+    list-style: none;
+    margin-left: 20px;
+}
 
 /*author:zqy*/
 #left-block{
@@ -189,12 +197,14 @@ table td.tableBottom{
 }
 
 .picture-block{
+    display: inline-block;/*加这个就好了，把块级元素改为inline，就可以同行排列了*/
     border-style: solid;
     border-color: #dedede;
     border-width: thin;
     padding: 10px;
     margin: 10px;
     position: relative;
+
     /*width: 140px;
     height: auto;
     float: left;*/

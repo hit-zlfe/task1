@@ -2,8 +2,13 @@
 	box-sizing: border-box;
 }
 
+body { /* 加了body的外边距和内边距，padding才好用。zqy*/
+	margin: 0; 
+	padding: 0;
+}
+
 .block, .container {
-	margin: 20px; /* 目测题目有问题 不应该是padding 是margin */
+	padding: 20px; 
 }
 
 .container {
@@ -16,6 +21,7 @@
 	width: 150px;
 	display: block;
 	border: 1px solid #f00;
+	margin-bottom: 20px;
 }
 
 .block1 {

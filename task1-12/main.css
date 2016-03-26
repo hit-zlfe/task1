@@ -27,10 +27,10 @@ tbody tr:nth-child(1),tbody tr:nth-child(2),tbody tr:nth-child(3){
 .input input{
     width: 156px;
     height: 20px;
-    transition: width 2s ease .3s,height 2s ease-out .1s;
-    -moz-transition:  width 2s ease .3s,height 2s ease-out .1s;
-    -webkit-transition:  width 2s ease .3s,height 2s ease-out .1s;
-    -o-transition: width 2s ease .3s,height 2s ease-out .1s;
+    transition: width 0.5s ease;
+    -moz-transition:  width 0.5s ease;
+    -webkit-transition:  width 0.5s ease;
+    -o-transition: width 0.5s ease;
 }
 .input input:focus{
     width: 267px;
